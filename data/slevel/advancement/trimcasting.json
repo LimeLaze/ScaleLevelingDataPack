@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "required": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:creeper_banner_pattern",
+          "components": {
+            "minecraft:consumable": {
+              "consume_seconds": 1000000000,
+              "animation": "spyglass",
+              "has_consume_particles": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "slevel:prestige_trims/trimmed"
+  }
+}

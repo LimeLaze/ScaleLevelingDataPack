@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Creating a Character",
+    "type": "text",
+    "color": "gold"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "<Necromancer>",
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Vigor: 0"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Sense: 3"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Endurance: 1"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Agility: 1"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Strenght: 0"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Haste: 0"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Starting Gear: Necromancer's Spell Pattern"
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": false,
+  "pause": true,
+  "columns": 3,
+  "actions": [
+    {
+      "label": "<< Previous class",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "slevel:class3"
+      }
+    },
+    {
+      "label": {
+        "text": "Select Necromancer",
+        "color": "yellow"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger SelectClass4"
+      }
+    },
+    {
+      "label": {
+        "text": "Next class >>",
+        "color": "white"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "slevel:class5"
+      }
+    }
+  ]
+}

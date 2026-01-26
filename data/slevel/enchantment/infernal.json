@@ -1,0 +1,98 @@
+{
+  "description": {
+    "text": "Infernal",
+    "color": "gold"
+  },
+  "supported_items": [
+    "minecraft:netherite_spear",
+    "minecraft:diamond_spear",
+    "minecraft:enchanted_book"
+  ],
+  "primary_items": [
+    "minecraft:netherite_spear",
+    "minecraft:diamond_spear",
+    "minecraft:enchanted_book"
+  ],
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 5
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:resistance",
+          "min_duration": 1,
+          "max_duration": 1,
+          "min_amplifier": 99,
+          "max_amplifier": 99
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      },
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "attribute_to_user": false,
+          "damage_type": "minecraft:fireball",
+          "immune_blocks": [
+            "minecraft:structure_void",
+            "minecraft:structure_block",
+            "minecraft:barrier",
+            "minecraft:command_block",
+            "minecraft:repeating_command_block",
+            "minecraft:chain_command_block",
+            "minecraft:bedrock",
+            "minecraft:obsidian"
+          ],
+          "offset": [
+            0,
+            0.5,
+            0
+          ],
+          "radius": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 1
+          },
+          "create_fire": true,
+          "block_interaction": "block",
+          "small_particle": {
+            "type": "minecraft:smoke"
+          },
+          "large_particle": {
+            "type": "minecraft:smoke"
+          },
+          "block_particles": [
+            {
+              "weight": 1,
+              "particle": {
+                "type": "minecraft:smoke"
+              }
+            },
+            {
+              "weight": 1,
+              "particle": {
+                "type": "minecraft:small_flame"
+              }
+            }
+          ],
+          "sound": "minecraft:entity.blaze.hurt"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  }
+}

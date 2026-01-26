@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    [
+      "minecraft:paper"
+    ],
+    [
+      "minecraft:dragon_breath"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:flower_banner_pattern",
+    "components": {
+      "minecraft:custom_data": {
+        "breathspell": true
+      },
+      "minecraft:item_name": "Spell Pattern",
+      "minecraft:rarity": "rare",
+      "minecraft:item_model": "spell_breath",
+      "minecraft:lore": [
+        {
+          "text": "Dragonbreath [5☆]",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

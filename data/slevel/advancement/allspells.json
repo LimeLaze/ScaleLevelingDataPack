@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flower_banner_pattern",
+      "components": {
+        "minecraft:item_model": "spell_heal"
+      }
+    },
+    "title": {
+      "text": "Sorcerer Supreme",
+      "italic": false
+    },
+    "description": {
+      "text": "Have all 23 Spell Patterns in your inventory at the same time",
+      "color": "dark_purple",
+      "italic": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "slevel:getspell",
+  "criteria": {
+    "alls": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

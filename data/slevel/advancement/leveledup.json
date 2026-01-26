@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:experience_bottle"
+    },
+    "title": {
+      "text": "What is the Meta Build?",
+      "italic": false
+    },
+    "description": {
+      "text": "Use your scale point to level up one of your stats",
+      "color": "green",
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "slevel:scaleroot",
+  "criteria": {
+    "levelup": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

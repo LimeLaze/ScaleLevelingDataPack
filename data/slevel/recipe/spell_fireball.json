@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    [
+      "minecraft:paper"
+    ],
+    [
+      "minecraft:fire_charge"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:flower_banner_pattern",
+    "components": {
+      "minecraft:custom_data": {
+        "firespell": true
+      },
+      "minecraft:item_name": "Spell Pattern",
+      "minecraft:rarity": "rare",
+      "minecraft:item_model": "spell_fireball",
+      "minecraft:lore": [
+        {
+          "text": "Blazeball [20☆]",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "[Reset levels]",
+    "type": "text",
+    "color": "light_purple"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Do you want to reset your scale levels? Your decision is final after pressing \"Confirm\"."
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "actions": [
+    {
+      "label": {
+        "text": "Confirm"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger ResetFinal"
+      }
+    },
+    {
+      "label": "Go back",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "slevel:helpmenu"
+      }
+    }
+  ]
+}

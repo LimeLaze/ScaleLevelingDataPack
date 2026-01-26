@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    [
+      "minecraft:paper"
+    ],
+    [
+      "minecraft:dragon_breath"
+    ],
+    [
+      "minecraft:fire_charge"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:flower_banner_pattern",
+    "components": {
+      "minecraft:custom_data": {
+        "dragonspell": true
+      },
+      "minecraft:item_name": "Spell Pattern",
+      "minecraft:rarity": "rare",
+      "minecraft:item_model": "spell_dragon",
+      "minecraft:lore": [
+        {
+          "text": "Dragon Fireball [110☆]",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

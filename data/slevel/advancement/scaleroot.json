@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:book",
+      "components": {
+        "minecraft:item_model": "soulbook"
+      }
+    },
+    "title": {
+      "text": "Scale Leveling",
+      "italic": false
+    },
+    "description": {
+      "text": "Changes game progression with a RPG-style leveling system and more difficulties",
+      "color": "green",
+      "italic": false
+    },
+    "background": "minecraft:block/pale_moss_block",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

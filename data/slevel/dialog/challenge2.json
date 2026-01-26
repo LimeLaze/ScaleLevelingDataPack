@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "[Challenges]",
+    "type": "text",
+    "color": "red"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "<Archery Banned>",
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Beat the game without using a bow or a crossbow."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        "Minimum difficulty: ",
+        {
+          "text": "Veteran",
+          "color": "dark_red"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "Reward: "
+        },
+        {
+          "text": "3 Scale Points",
+          "color": "gold"
+        }
+      ]
+    }
+  ],
+  "inputs": [],
+  "pause": false,
+  "exit_action": {
+    "label": "Go back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "slevel:challenges"
+    }
+  },
+  "columns": 3,
+  "actions": [
+    {
+      "label": "<< Previous page",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "slevel:challenge1"
+      }
+    },
+    {
+      "label": {
+        "text": "Accept the Challenge",
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger SelectC2"
+      }
+    },
+    {
+      "label": {
+        "text": "Next page >>",
+        "color": "white"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "slevel:challenge3"
+      }
+    }
+  ]
+}

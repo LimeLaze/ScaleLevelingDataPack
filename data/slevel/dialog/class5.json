@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Creating a Character",
+    "type": "text",
+    "color": "gold"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "<Miner>",
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Vigor: 1"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Sense: 0"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Endurance: 1"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Agility: 1"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Strenght: 0"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Haste: 2"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Starting Gear: Miner's Stone Pickaxe"
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": false,
+  "pause": true,
+  "columns": 3,
+  "actions": [
+    {
+      "label": "<< Previous class",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "slevel:class4"
+      }
+    },
+    {
+      "label": {
+        "text": "Select Miner",
+        "color": "yellow"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger SelectClass5"
+      }
+    },
+    {
+      "label": {
+        "text": "Next class >>",
+        "color": "white"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "slevel:class1"
+      }
+    }
+  ]
+}

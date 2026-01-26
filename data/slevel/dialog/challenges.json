@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "[Scale Leveling Config]",
+    "color": "red"
+  },
+  "external_title": {
+    "text": "[SL Config]",
+    "type": "text",
+    "color": "red"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "text": "Try beating challenges or increase your difficulty to the next level."
+    }
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "exit_action": {
+    "label": {
+      "text": "Leave"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Advanced Keep Inventory",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger SelectAKI"
+      }
+    },
+    {
+      "label": {
+        "text": "Difficulty++"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "slevel:diffmenu"
+      }
+    },
+    {
+      "label": {
+        "text": "Challenges"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "slevel:challenge1"
+      }
+    },
+    {
+      "label": {
+        "text": "[Help]",
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "slevel:helpmenu2"
+      }
+    }
+  ]
+}

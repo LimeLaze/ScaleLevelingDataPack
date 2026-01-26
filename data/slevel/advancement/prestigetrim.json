@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald",
+      "components": {
+        "minecraft:item_model": "trim_empty"
+      }
+    },
+    "title": {
+      "text": "Legendary Drip",
+      "italic": false
+    },
+    "description": {
+      "text": "Use a Prestige Armor Trim for the first time",
+      "color": "dark_purple",
+      "italic": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "slevel:prestigeup",
+  "criteria": {
+    "prestigetimmed": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

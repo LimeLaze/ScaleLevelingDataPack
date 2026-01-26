@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "[Scale Leveling Help]",
+    "type": "text",
+    "color": "red"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "[Advanced Keep Inventory]",
+        "color": "red"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Advanced Keep Inventory is an expansion for the vanilla game rule and recommended for the Scale Leveling experience."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "This new advanced game rule adds a new feature to the existing rule that makes players lose all of their experience on death."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "[Different type of difficulties]",
+        "color": "red"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "\"Difficulty++\" menu lets you select game difficulties beyond vanilla. When a difficulty is selected it changes it for all players."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "All of the new difficulties will change the Ender Dragon boss fight."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Expert: Minimum to activate the enhanced Ender Dragon. Enemies hit hard. Recommended for the Scale Leveling experience."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Veteran: For those who know everything about this game. Enemies hit very hard."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Divinity: The highest difficulty. For those who seek a supreme challenge."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Chronos: Gimmick difficulty. You kill and die instantly. The only one who can resist your damage is the Ender Dragon."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "[Challenges]",
+        "color": "red"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Challenges are a way to earn extra scale points. They usually require a much harder difficulty which can be selected from the \"Difficulty++\" menu. "
+    }
+  ],
+  "inputs": [],
+  "pause": false,
+  "action": {
+    "label": "Go back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "slevel:scalemenu"
+    }
+  },
+  "actions": [
+    {
+      "label": "Go back",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "slevel:challenges"
+      }
+    }
+  ]
+}

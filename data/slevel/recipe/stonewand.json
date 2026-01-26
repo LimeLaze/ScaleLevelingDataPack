@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " S ",
+    " T ",
+    " S "
+  ],
+  "key": {
+    "S": [
+      "minecraft:stick"
+    ],
+    "T": [
+      "minecraft:cobbled_deepslate",
+      "minecraft:cobblestone"
+    ]
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 1000000000,
+        "animation": "spyglass",
+        "has_consume_particles": false,
+        "on_consume_effects": []
+      },
+      "minecraft:item_model": "stonewand",
+      "minecraft:item_name": "Stone Wand",
+      "minecraft:lore": [
+        "",
+        {
+          "text": "When in Main Hand:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+1 Mana Return",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "wand": true,
+        "wandlevel1": true
+      }
+    }
+  }
+}

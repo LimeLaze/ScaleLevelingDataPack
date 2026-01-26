@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Creating a Character",
+    "color": "gold"
+  },
+  "external_title": "Scaling",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "text": "Select a staring item."
+    }
+  },
+  "inputs": [],
+  "can_close_with_escape": false,
+  "pause": true,
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "Apples",
+        "hover_event": {
+          "action": "show_text",
+          "value": ""
+        }
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger Item1"
+      }
+    },
+    {
+      "label": {
+        "text": "Trial Key"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger Item2"
+      }
+    },
+    {
+      "label": {
+        "text": "Bundle"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger Item3"
+      }
+    },
+    {
+      "label": {
+        "text": "Fishing Rod"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger Item4"
+      }
+    },
+    {
+      "label": {
+        "text": "Music Disc"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger Item5"
+      }
+    },
+    {
+      "label": {
+        "text": "Name Tag"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger Item6"
+      }
+    }
+  ]
+}

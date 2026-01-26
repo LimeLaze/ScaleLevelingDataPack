@@ -1,0 +1,50 @@
+{
+  "description": {
+    "text": "Critical Stake",
+    "color": "gold"
+  },
+  "supported_items": [
+    "minecraft:netherite_axe",
+    "minecraft:diamond_axe",
+    "minecraft:enchanted_book"
+  ],
+  "primary_items": [
+    "minecraft:netherite_axe",
+    "minecraft:diamond_axe",
+    "minecraft:enchanted_book"
+  ],
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 5
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.05,
+            "per_level_above_first": 0.025
+          },
+          "enchantment": "slevel:critical_stake"
+        },
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": 2
+        }
+      }
+    ]
+  }
+}

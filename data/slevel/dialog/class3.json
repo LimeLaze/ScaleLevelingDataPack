@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Creating a Character",
+    "type": "text",
+    "color": "gold"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "<Hunter>",
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Vigor: 1"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Sense: 0"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Endurance: 1"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Agility: 2"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Strenght: 1"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Haste: 0"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Starting Gear: Hunter's Copper Spear"
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": false,
+  "pause": true,
+  "columns": 3,
+  "actions": [
+    {
+      "label": "<< Previous class",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "slevel:class2"
+      }
+    },
+    {
+      "label": {
+        "text": "Select Hunter",
+        "color": "yellow"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger SelectClass3"
+      }
+    },
+    {
+      "label": {
+        "text": "Next class >>",
+        "color": "white"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "slevel:class4"
+      }
+    }
+  ]
+}

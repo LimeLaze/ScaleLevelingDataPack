@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " S ",
+    " S ",
+    " T "
+  ],
+  "key": {
+    "S": [
+      "minecraft:diamond"
+    ],
+    "T": [
+      "minecraft:stick"
+    ]
+  },
+  "result": {
+    "id": "minecraft:diamond_sword",
+    "components": {
+      "minecraft:lore": [
+        [
+          {
+            "text": "Req. Stats: ",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "3 Ag 3 St 3 Ha",
+            "color": "yellow"
+          }
+        ]
+      ]
+    }
+  }
+}

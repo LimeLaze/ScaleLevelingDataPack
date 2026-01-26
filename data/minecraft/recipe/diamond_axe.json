@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SS ",
+    "ST ",
+    " T "
+  ],
+  "key": {
+    "S": [
+      "minecraft:diamond"
+    ],
+    "T": [
+      "minecraft:stick"
+    ]
+  },
+  "result": {
+    "id": "minecraft:diamond_axe",
+    "components": {
+      "minecraft:lore": [
+        [
+          {
+            "text": "Req. Stats: ",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "7 St 1 Ha",
+            "color": "yellow"
+          }
+        ]
+      ]
+    }
+  }
+}

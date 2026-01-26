@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " s ",
+    "sxs",
+    " s "
+  ],
+  "key": {
+    "x": [
+      "minecraft:dragon_breath"
+    ],
+    "s": [
+      "minecraft:ender_pearl"
+    ]
+  },
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "components": {
+      "minecraft:item_model": "minecraft:scalepearl",
+      "minecraft:item_name": {
+        "text": "Scale Pearl",
+        "color": "yellow",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Reset you scaling levels. Lose your time based scale points.",
+          "type": "text",
+          "extra": [
+            " "
+          ]
+        }
+      ],
+      "minecraft:custom_data": {
+        "spearl": true
+      }
+    },
+    "count": 1
+  }
+}

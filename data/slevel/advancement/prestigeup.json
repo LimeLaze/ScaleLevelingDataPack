@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "text": "The Endgame",
+      "italic": false
+    },
+    "description": {
+      "text": "Level up your prestige for the first time",
+      "color": "green",
+      "italic": false
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "slevel:maxxedlevel",
+  "criteria": {
+    "prestigeplus": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

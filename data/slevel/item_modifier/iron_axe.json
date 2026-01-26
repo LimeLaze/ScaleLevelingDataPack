@@ -1,0 +1,18 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    [
+      {
+        "text": "Req. Stats: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "3 St",
+        "color": "yellow",
+        "italic": false
+      }
+    ]
+  ],
+  "mode": "replace_all"
+}

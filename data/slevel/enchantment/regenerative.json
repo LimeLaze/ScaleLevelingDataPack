@@ -1,0 +1,66 @@
+{
+  "description": {
+    "text": "Regenerative",
+    "color": "gold"
+  },
+  "supported_items": [
+    "minecraft:copper_axe",
+    "minecraft:copper_spear",
+    "minecraft:copper_sword",
+    "minecraft:enchanted_book"
+  ],
+  "primary_items": [
+    "minecraft:copper_sword",
+    "minecraft:copper_spear",
+    "minecraft:copper_axe",
+    "minecraft:enchanted_book"
+  ],
+  "weight": 1,
+  "max_level": 2,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 5
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:regeneration",
+          "min_duration": 2,
+          "max_duration": 2,
+          "min_amplifier": {
+            "type": "minecraft:linear",
+            "base": 0,
+            "per_level_above_first": 1
+          },
+          "max_amplifier": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 1
+          }
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      },
+      {
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": "minecraft:block.brewing_stand.brew",
+          "volume": 0.2,
+          "pitch": 2
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ]
+  }
+}

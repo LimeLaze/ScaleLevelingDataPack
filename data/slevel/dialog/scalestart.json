@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Scale Leveling",
+    "type": "text",
+    "color": "gold"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Welcome new adventurer!"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Before you can start your new and tweaked Minecraft journey with Scale Leveling you need to make yourself a character."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "The proccess is short and requires you to choose a starting class and a starting item."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "After that you are set! To level up you character while playing, press [G] or your \"Quick Actions\" button."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Also remember to check out the Scale Leveling Config from the pause menu. There you can set a new advanced keep inventory rule, change difficulties beyond vanilla and try beating challenges."
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": false,
+  "pause": true,
+  "actions": [
+    {
+      "label": "Choose a Class",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "slevel:class1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
+    },
+    "title": {
+      "text": "My Speciality",
+      "italic": false
+    },
+    "description": {
+      "text": "Get one of your scale levels to max level",
+      "color": "green",
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "slevel:leveledup",
+  "criteria": {
+    "maxxed": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

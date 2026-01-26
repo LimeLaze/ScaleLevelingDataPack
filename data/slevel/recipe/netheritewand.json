@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:stick",
+  "addition": "#minecraft:netherite_tool_materials",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "result": {
+    "id": "minecraft:stick",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 1000000000,
+        "animation": "spyglass",
+        "has_consume_particles": false
+      },
+      "minecraft:item_model": "netheritewand",
+      "minecraft:item_name": "Netherite Wand",
+      "minecraft:lore": [
+        [
+          {
+            "text": "Req. Stats: ",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "7 Se 1 Ag",
+            "color": "yellow",
+            "italic": false
+          }
+        ],
+        "",
+        {
+          "text": "When in Main Hand:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+5 Mana Return",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "0.5 Shorter Mana Cooldown",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "wandlevel4": true,
+        "wand": true,
+        "wandlevel5": true
+      }
+    }
+  }
+}

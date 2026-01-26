@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    [
+      "minecraft:paper"
+    ],
+    [
+      "minecraft:music_disc_11"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:flower_banner_pattern",
+    "components": {
+      "minecraft:custom_data": {
+        "thunspell": true
+      },
+      "minecraft:item_name": "Spell Pattern",
+      "minecraft:rarity": "rare",
+      "minecraft:item_model": "spell_thunder",
+      "minecraft:lore": [
+        {
+          "text": "Gift From The One Eyed [170☆]",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

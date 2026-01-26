@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " S ",
+    " T ",
+    " S "
+  ],
+  "key": {
+    "S": [
+      "minecraft:stick"
+    ],
+    "T": [
+      "minecraft:acacia_planks",
+      "minecraft:bamboo_planks",
+      "minecraft:birch_planks",
+      "minecraft:cherry_planks",
+      "minecraft:crimson_planks",
+      "minecraft:dark_oak_planks",
+      "minecraft:jungle_planks",
+      "minecraft:mangrove_planks",
+      "minecraft:oak_planks",
+      "minecraft:pale_oak_planks",
+      "minecraft:spruce_planks",
+      "minecraft:warped_planks"
+    ]
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 1000000000,
+        "animation": "spyglass",
+        "has_consume_particles": false,
+        "on_consume_effects": []
+      },
+      "minecraft:item_model": "woodenwand",
+      "minecraft:item_name": "Wooden Wand",
+      "minecraft:custom_data": {
+        "wand": true
+      },
+      "minecraft:lore": [
+        ""
+      ]
+    }
+  }
+}

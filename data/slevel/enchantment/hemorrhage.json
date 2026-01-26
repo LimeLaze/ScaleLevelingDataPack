@@ -1,0 +1,40 @@
+{
+  "description": {
+    "text": "Hemorrhage",
+    "color": "gold"
+  },
+  "supported_items": [
+    "minecraft:iron_sword",
+    "minecraft:enchanted_book"
+  ],
+  "primary_items": [
+    "minecraft:iron_sword",
+    "minecraft:enchanted_book"
+  ],
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 5
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "slevel:bleed"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  }
+}

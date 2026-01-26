@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flower_banner_pattern",
+      "components": {
+        "minecraft:item_model": "spell_empty"
+      }
+    },
+    "title": {
+      "text": "Wizardry",
+      "italic": false
+    },
+    "description": {
+      "text": "Obtain a Spell Pattern",
+      "color": "green",
+      "italic": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "slevel:scaleroot",
+  "criteria": {
+    "gets": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  S",
+    " T ",
+    "T  "
+  ],
+  "key": {
+    "S": [
+      "minecraft:diamond"
+    ],
+    "T": [
+      "minecraft:stick"
+    ]
+  },
+  "result": {
+    "id": "minecraft:diamond_spear",
+    "components": {
+      "minecraft:lore": [
+        [
+          {
+            "text": "Req. Stats: ",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "6 Ag 1 St 1 Ha",
+            "color": "yellow"
+          }
+        ]
+      ]
+    }
+  }
+}

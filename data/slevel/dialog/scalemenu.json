@@ -1,0 +1,93 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "[Character Scaling]",
+    "color": "gold"
+  },
+  "external_title": "Scaling",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "text": "Use your earned scale points here:"
+    }
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "exit_action": {
+    "label": {
+      "text": "Leave"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "+1 Vigor",
+        "hover_event": {
+          "action": "show_text",
+          "value": "s"
+        }
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger VigorUp"
+      }
+    },
+    {
+      "label": {
+        "text": "+1 Sense"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger SenseUp"
+      }
+    },
+    {
+      "label": {
+        "text": "+1 Endurance"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger EnduranceUp"
+      }
+    },
+    {
+      "label": {
+        "text": "+1 Agility"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger AgilityUp"
+      }
+    },
+    {
+      "label": {
+        "text": "+1 Strength"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger StrenghtUp"
+      }
+    },
+    {
+      "label": {
+        "text": "+1 Haste"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger HasteUp"
+      }
+    },
+    {
+      "label": {
+        "text": "See my own stats",
+        "color": "yellow"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger SeeStats"
+      }
+    }
+  ]
+}

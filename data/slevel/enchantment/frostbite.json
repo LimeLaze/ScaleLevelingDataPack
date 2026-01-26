@@ -1,0 +1,60 @@
+{
+  "description": {
+    "text": "Frostbite",
+    "color": "gold"
+  },
+  "supported_items": [
+    "minecraft:iron_axe",
+    "minecraft:enchanted_book"
+  ],
+  "primary_items": [
+    "minecraft:iron_axe",
+    "minecraft:enchanted_book"
+  ],
+  "weight": 1,
+  "max_level": 4,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 5
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "slevel:frostbite"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:slowness",
+          "min_duration": 5,
+          "max_duration": 5,
+          "min_amplifier": {
+            "type": "minecraft:linear",
+            "base": 0,
+            "per_level_above_first": 1
+          },
+          "max_amplifier": {
+            "type": "minecraft:linear",
+            "base": 0,
+            "per_level_above_first": 1
+          }
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  }
+}

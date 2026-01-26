@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "text": "For those who come after",
+      "italic": false
+    },
+    "description": {
+      "text": "Select a new higher difficulty",
+      "color": "green",
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "slevel:scaleroot",
+  "criteria": {
+    "diff": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

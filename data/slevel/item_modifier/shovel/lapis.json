@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:trim": {
+      "material": "minecraft:lapis",
+      "pattern": "slevel:shovel"
+    }
+  },
+  "conditions": []
+}

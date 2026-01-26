@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "[Difficulty++]",
+    "color": "red"
+  },
+  "external_title": {
+    "text": "[Difficulty++]",
+    "type": "text",
+    "color": "red"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "text": "Select your difficult (this overrides the difficulty of the whole server)"
+    }
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "exit_action": {
+    "label": "Go back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "slevel:challenges"
+    }
+  },
+  "columns": 2,
+  "actions": [
+    {
+      "label": {
+        "text": "Expert [+1]",
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger SelectD1"
+      }
+    },
+    {
+      "label": {
+        "text": "Veteran [+2]",
+        "color": "dark_red"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger SelectD2"
+      }
+    },
+    {
+      "label": {
+        "text": "Divinity [+3]",
+        "color": "black"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger SelectD3"
+      }
+    },
+    {
+      "label": {
+        "text": "Chronos  [+∞]",
+        "color": "dark_purple"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger SelectD4"
+      }
+    },
+    {
+      "label": "Vanilla",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger SelectVanilla"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+effect give @s minecraft:blindness 30 0 false
+effect give @s minecraft:slowness 30 0 false
+effect give @s minecraft:poison 30 0 false
+effect give @s minecraft:wither 30 0 false
+effect give @s minecraft:darkness 30 0 false
+effect give @s minecraft:bad_omen 30 0 false
+effect give @s minecraft:hunger 30 0 false
+effect give @s minecraft:infested 30 0 false
+effect give @s minecraft:mining_fatigue 30 0 false
+effect give @s minecraft:nausea 30 0 false
+effect give @s minecraft:weakness 30 0 false
+effect give @s minecraft:unluck 30 0 false
+effect give @s minecraft:wind_charged 30 0 false
+effect give @s minecraft:weaving 30 0 false

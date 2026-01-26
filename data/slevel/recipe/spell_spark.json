@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    [
+      "minecraft:paper"
+    ],
+    [
+      "minecraft:firework_rocket"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:flower_banner_pattern",
+    "components": {
+      "minecraft:custom_data": {
+        "dmgspell": true
+      },
+      "minecraft:item_name": "Spell Pattern",
+      "minecraft:rarity": "rare",
+      "minecraft:item_model": "spell_spark",
+      "minecraft:lore": [
+        {
+          "text": "Spark [10☆]",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

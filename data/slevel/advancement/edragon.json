@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_head"
+    },
+    "title": {
+      "text": "A True Challenger",
+      "italic": false
+    },
+    "description": {
+      "text": "Beat the enhanced Ender Dragon",
+      "color": "green",
+      "italic": false
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "slevel:diffselect",
+  "criteria": {
+    "dragonx": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

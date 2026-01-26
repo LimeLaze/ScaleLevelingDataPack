@@ -1,0 +1,102 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "[Scaling Help]",
+    "type": "text",
+    "color": "gold"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Use scale points to level up your character in different ways. They can be earned over time and through basic game progression. Time based scale points are earned hourly capping at 8 hours. After that they can be earned every 3 hours."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Maximum level of every stat is 10."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Vigor increases maximum health."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Sense increases maximum mana."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Endurance increases base armor and safe fall distance."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Agility increases attack and movement speed."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Strength increases melee attack power."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Haste increases block break speed."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "[Resetting scale levels]",
+        "color": "light_purple"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Resetting scale levels grants back your scale points earned from game progression and difficulty challenges. Every point earned with time is lost and the timer reset."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "[Prestige]",
+        "color": "green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Prestige levels can be earned after reaching maximum scale level of every stat. Each prestige level grants 30 experience levels and costs one scale point. Can be leveled indefinitely. Prestige levels 5, 15, 25 & 50 grant exclusive one time use armor trims."
+    }
+  ],
+  "inputs": [],
+  "pause": false,
+  "action": {
+    "label": "Go back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "slevel:scalemenu"
+    }
+  },
+  "actions": [
+    {
+      "label": {
+        "text": "Reset my levels",
+        "color": "light_purple"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "slevel:resetconfirm"
+      }
+    },
+    {
+      "label": {
+        "text": "+ 1 Prestige",
+        "color": "green"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger PrestigeUp"
+      }
+    },
+    {
+      "label": "Go back",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "slevel:scalemenu"
+      }
+    }
+  ]
+}
