@@ -58,7 +58,7 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "Prestige levels can be earned after reaching maximum scale level of every stat. Each prestige level grants 30 experience levels and costs one scale point. Can be leveled indefinitely. Prestige levels 5, 15, 25 & 50 grant exclusive one time use armor trims."
+      "contents": "Prestige levels can be earned after reaching maximum scale level of every stat. Each prestige level grants 30 experience levels and costs one scale point. Can be leveled indefinitely. Prestige levels 5, 10, 15, 25, 35 & 50 grant exclusive one time use armor trims."
     }
   ],
   "inputs": [],

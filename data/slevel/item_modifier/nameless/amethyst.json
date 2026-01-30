@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:trim": {
+      "material": "minecraft:amethyst",
+      "pattern": "slevel:nameless"
+    }
+  },
+  "conditions": []
+}

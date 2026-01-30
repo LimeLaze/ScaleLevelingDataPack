@@ -832,6 +832,12 @@ execute as @a[tag=!pretrim1,scores={PrestigeLvl=5..}] at @s run give @s creeper_
 
 execute as @a[tag=!pretrim1,scores={PrestigeLvl=5..}] at @s run tag @s add pretrim1
 
+execute as @a[tag=!pretrim5,scores={PrestigeLvl=10..}] at @s run give @s creeper_banner_pattern[item_model="trim_onion",item_name={"italic":false,"text":"Onion Armor Trim"},rarity="epic",lore=[{"color":"gray","italic":false,"text":"Prestige Smithing Template"}," ",{"color":"gray","italic":false,"text":"Applies to:"},{"color":"blue","italic":false,"text":"All Equipped Armor"},{"color":"gray","italic":false,"text":"Ingredients:"},{"color":"blue","italic":false,"text":"Ingots & Crystals"},{"color":"gray","italic":false,"text":"To Apply:"},{"color":"blue","italic":false,"text":"Right-Click with the trim while holding a selected material in offhand"}],consumable={consume_seconds:1000000000,animation:"spyglass",has_consume_particles:false},custom_data={trimonion:1b}] 1
+
+execute as @a[tag=!pretrim5,scores={PrestigeLvl=10..}] at @s run tag @s add pretrim5
+
+
+
 execute as @a[tag=!pretrim2,scores={PrestigeLvl=15..}] at @s run give @s creeper_banner_pattern[item_model="trim_cinder",item_name={"italic":false,"text":"Cinder Armor Trim"},rarity="epic",lore=[{"color":"gray","italic":false,"text":"Prestige Smithing Template"}," ",{"color":"gray","italic":false,"text":"Applies to:"},{"color":"blue","italic":false,"text":"All Equipped Armor"},{"color":"gray","italic":false,"text":"Ingredients:"},{"color":"blue","italic":false,"text":"Ingots & Crystals"},{"color":"gray","italic":false,"text":"To Apply:"},{"color":"blue","italic":false,"text":"Right-Click with the trim while holding a selected material in offhand"}],consumable={consume_seconds:1000000000,animation:"spyglass",has_consume_particles:false},custom_data={trimcinder:1b}] 1
 
 execute as @a[tag=!pretrim2,scores={PrestigeLvl=15..}] at @s run tag @s add pretrim2
@@ -839,6 +845,11 @@ execute as @a[tag=!pretrim2,scores={PrestigeLvl=15..}] at @s run tag @s add pret
 execute as @a[tag=!pretrim3,scores={PrestigeLvl=25..}] at @s run give @s creeper_banner_pattern[item_model="trim_shovel",item_name={"italic":false,"text":"Shovel Armor Trim"},rarity="epic",lore=[{"color":"gray","italic":false,"text":"Prestige Smithing Template"}," ",{"color":"gray","italic":false,"text":"Applies to:"},{"color":"blue","italic":false,"text":"All Equipped Armor"},{"color":"gray","italic":false,"text":"Ingredients:"},{"color":"blue","italic":false,"text":"Ingots & Crystals"},{"color":"gray","italic":false,"text":"To Apply:"},{"color":"blue","italic":false,"text":"Right-Click with the trim while holding a selected material in offhand"}],consumable={consume_seconds:1000000000,animation:"spyglass",has_consume_particles:false},custom_data={trimshovel:1b}] 1
 
 execute as @a[tag=!pretrim3,scores={PrestigeLvl=25..}] at @s run tag @s add pretrim3
+
+execute as @a[tag=!pretrim6,scores={PrestigeLvl=35..}] at @s run give @s creeper_banner_pattern[item_model="trim_nameless",item_name={"italic":false,"text":"Nameless Armor Trim"},rarity="epic",lore=[{"color":"gray","italic":false,"text":"Prestige Smithing Template"}," ",{"color":"gray","italic":false,"text":"Applies to:"},{"color":"blue","italic":false,"text":"Equipped Helmet, Chestplate & Leggings"},{"color":"gray","italic":false,"text":"Ingredients:"},{"color":"blue","italic":false,"text":"Ingots & Crystals"},{"color":"gray","italic":false,"text":"To Apply:"},{"color":"blue","italic":false,"text":"Right-Click with the trim while holding a selected material in offhand"}],consumable={consume_seconds:1000000000,animation:"spyglass",has_consume_particles:false},custom_data={trimnameless:1b}] 1
+
+execute as @a[tag=!pretrim6,scores={PrestigeLvl=35..}] at @s run tag @s add pretrim6
+
 
 execute as @a[tag=!pretrim4,scores={PrestigeLvl=50..}] at @s run give @s creeper_banner_pattern[item_model="trim_cover",item_name={"italic":false,"text":"Cover Armor Trim"},rarity="epic",lore=[{"color":"gray","italic":false,"text":"Prestige Smithing Template"}," ",{"color":"gray","italic":false,"text":"Applies to:"},{"color":"blue","italic":false,"text":"All Equipped Armor"},{"color":"gray","italic":false,"text":"Ingredients:"},{"color":"blue","italic":false,"text":"Ingots & Crystals"},{"color":"gray","italic":false,"text":"To Apply:"},{"color":"blue","italic":false,"text":"Right-Click with the trim while holding a selected material in offhand"}],consumable={consume_seconds:1000000000,animation:"spyglass",has_consume_particles:false},custom_data={trimcover:1b}] 1
 
